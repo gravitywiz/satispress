@@ -15,8 +15,8 @@ namespace SatisPress;
 
 use DateTime;
 use Exception;
-use Psr\Log\AbstractLogger;
-use Psr\Log\LogLevel;
+use SatisPress\Vendor\Psr\Log\AbstractLogger;
+use SatisPress\Vendor\Psr\Log\LogLevel;
 use ReflectionClass;
 
 /**

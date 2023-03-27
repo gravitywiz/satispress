@@ -11,7 +11,7 @@ declare ( strict_types = 1 );
 
 namespace SatisPress\Screen;
 
-use Cedaro\WP\Plugin\AbstractHookProvider;
+use SatisPress\Vendor\Cedaro\WP\Plugin\AbstractHookProvider;
 use SatisPress\Authentication\ApiKey\ApiKey;
 use SatisPress\Authentication\ApiKey\ApiKeyRepository;
 use SatisPress\Capabilities;

@@ -11,7 +11,7 @@ declare ( strict_types = 1 );
 
 namespace SatisPress\Transformer;
 
-use Psr\Log\LoggerInterface;
+use SatisPress\Vendor\Psr\Log\LoggerInterface;
 use SatisPress\Capabilities;
 use SatisPress\Exception\FileNotFound;
 use SatisPress\Exception\SatispressException;

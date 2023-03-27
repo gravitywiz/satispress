@@ -11,13 +11,13 @@ declare ( strict_types = 1 );
 
 namespace SatisPress;
 
-use Cedaro\WP\Plugin\Provider\I18n;
+use SatisPress\Vendor\Cedaro\WP\Plugin\Provider\I18n;
 use Composer\Semver\VersionParser;
-use Pimple\Container as PimpleContainer;
-use Pimple\ServiceIterator;
-use Pimple\ServiceProviderInterface;
-use Pimple\Psr11\ServiceLocator;
-use Psr\Log\LogLevel;
+use SatisPress\Vendor\Pimple\Container as PimpleContainer;
+use SatisPress\Vendor\Pimple\ServiceIterator;
+use SatisPress\Vendor\Pimple\ServiceProviderInterface;
+use SatisPress\Vendor\Pimple\Psr11\ServiceLocator;
+use SatisPress\Vendor\Psr\Log\LogLevel;
 use SatisPress\Authentication\ApiKey;
 use SatisPress\Authentication;
 use SatisPress\HTTP\Request;

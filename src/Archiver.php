@@ -17,8 +17,8 @@ namespace SatisPress;
 
 use LogicException;
 use PclZip;
-use Pimple\ServiceIterator;
-use Psr\Log\LoggerInterface;
+use SatisPress\Vendor\Pimple\ServiceIterator;
+use SatisPress\Vendor\Psr\Log\LoggerInterface;
 use SatisPress\Exception\FileDownloadFailed;
 use SatisPress\Exception\FileOperationFailed;
 use SatisPress\Exception\InvalidPackageArtifact;

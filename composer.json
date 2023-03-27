@@ -64,7 +64,8 @@
 		"squizlabs/php_codesniffer": "^3.3",
 		"wordpress/wordpress": "^5.1",
 		"wp-cli/i18n-command": "dev-main",
-		"wp-coding-standards/wpcs": "^1"
+		"wp-coding-standards/wpcs": "^1",
+		"typisttech/imposter-plugin": "^0.6.2"
 	},
 	"autoload": {
 		"psr-4": {
@@ -77,6 +78,12 @@
 	"autoload-dev": {
 		"psr-4": {
 			"SatisPress\\Test\\": "tests/phpunit/"
+		}
+	},
+	"extra": {
+		"imposter": {
+			"namespace": "SatisPress\\Vendor",
+			"excludes": []
 		}
 	},
 	"scripts": {

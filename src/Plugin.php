@@ -11,8 +11,8 @@ declare ( strict_types = 1 );
 
 namespace SatisPress;
 
-use Cedaro\WP\Plugin\Plugin as BasePlugin;
-use Psr\Container\ContainerInterface;
+use SatisPress\Vendor\Cedaro\WP\Plugin\Plugin as BasePlugin;
+use SatisPress\Vendor\Psr\Container\ContainerInterface;
 
 /**
  * Main plugin class - composition root.

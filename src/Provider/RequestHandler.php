@@ -11,8 +11,8 @@ declare ( strict_types = 1 );
 
 namespace SatisPress\Provider;
 
-use Cedaro\WP\Plugin\AbstractHookProvider;
-use Psr\Container\ContainerInterface;
+use SatisPress\Vendor\Cedaro\WP\Plugin\AbstractHookProvider;
+use SatisPress\Vendor\Psr\Container\ContainerInterface;
 use SatisPress\Exception\AuthenticationException;
 use SatisPress\HTTP\Request;
 use SatisPress\HTTP\Response;

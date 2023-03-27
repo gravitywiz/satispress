@@ -11,7 +11,7 @@ declare ( strict_types = 1 );
 
 namespace SatisPress\Integration;
 
-use Cedaro\WP\Plugin\AbstractHookProvider;
+use SatisPress\Vendor\Cedaro\WP\Plugin\AbstractHookProvider;
 
 /**
  * Envato Market plugin integration provider class.

@@ -11,8 +11,8 @@ declare ( strict_types = 1 );
 
 namespace SatisPress;
 
-use Psr\Container\ContainerInterface;
-use Pimple\Container as PimpleContainer;
+use SatisPress\Vendor\Psr\Container\ContainerInterface;
+use SatisPress\Vendor\Pimple\Container as PimpleContainer;
 
 /**
  * Container class.

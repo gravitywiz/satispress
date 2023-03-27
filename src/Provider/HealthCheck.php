@@ -11,7 +11,7 @@ declare ( strict_types = 1 );
 
 namespace SatisPress\Provider;
 
-use Cedaro\WP\Plugin\AbstractHookProvider;
+use SatisPress\Vendor\Cedaro\WP\Plugin\AbstractHookProvider;
 use SatisPress\HTTP\Request;
 use WP_Error;
 use WP_Http as HTTP;

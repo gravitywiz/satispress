@@ -11,8 +11,8 @@ declare ( strict_types = 1 );
 
 namespace SatisPress\Provider;
 
-use Cedaro\WP\Plugin\AbstractHookProvider;
-use Pimple\ServiceIterator;
+use SatisPress\Vendor\Cedaro\WP\Plugin\AbstractHookProvider;
+use SatisPress\Vendor\Pimple\ServiceIterator;
 use WP_REST_Controller;
 
 /**

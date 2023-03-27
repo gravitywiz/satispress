@@ -11,8 +11,8 @@ declare ( strict_types = 1 );
 
 namespace SatisPress\Provider;
 
-use Cedaro\WP\Plugin\AbstractHookProvider;
-use Psr\Log\LoggerInterface;
+use SatisPress\Vendor\Cedaro\WP\Plugin\AbstractHookProvider;
+use SatisPress\Vendor\Psr\Log\LoggerInterface;
 use SatisPress\Exception\SatispressException;
 use SatisPress\Capabilities;
 use SatisPress\Htaccess;
